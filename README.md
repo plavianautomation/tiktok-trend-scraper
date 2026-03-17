@@ -1,16 +1,29 @@
-# TikTok Trend Scraper
+# TikTok Trend Scraper (Apify API)
 
-Scrapes trending TikTok videos using Apify API and outputs structured datasets.
+Production-style scraping pipeline that extracts trending TikTok video data and outputs structured datasets.
 
 ## Features
-- Extracts video metadata (likes, user, URL)
-- Uses Apify TikTok scraper
-- Outputs JSON data
+- Extracts video metadata (user, likes, URL)
+- Uses Apify TikTok scraping API
+- Outputs clean JSON datasets
+
+## Tech Stack
+Python • API Integration • Apify • Data Pipelines
 
 ## Use Cases
 - Social media trend analysis
-- Influencer research
-- Market insights
+- Influencer discovery
+- Market intelligence
+
+## Sample Output
+
+[
+  {
+    "user": "aitrends",
+    "likes": 45200,
+    "url": "https://tiktok.com/sample"
+  }
+]
 
 ## Setup
 
