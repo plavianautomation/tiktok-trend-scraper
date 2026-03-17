@@ -32,3 +32,9 @@ pip install -r requirements.txt
 Add your Apify token in scraper.py and run:
 
 python scraper.py
+
+## Contact
+
+Available for automation, scraping, and data pipeline projects.
+
+GitHub: https://github.com/plavinautomation
